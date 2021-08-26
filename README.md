@@ -1,5 +1,6 @@
 # LABORATORIO 2 - PATTERNS - 2021-2
-TALLER 2
+TALLER 2!
+
 
 PATTERNS - FACTORY
 LA HERRAMIENTA MAVEN
@@ -51,10 +52,7 @@ En algunos sistemas operativos, este comando no funciona correctamente o puede r
 AJUSTAR ALGUNAS CONFIGURACIONES EN EL PROYECTO
 Edite el archivo pom.xml y realize la siguiente actualización:
 Hay que cambiar la version del compilador de Java a la versión 8, para ello, agregue la sección properties antes de la sección de dependencias:
-    <properties>
-        <maven.compiler.target>1.8</maven.compiler.target>
-        <maven.compiler.source>1.8</maven.compiler.source>
-    </properties>
+[Screenshot_3](https://user-images.githubusercontent.com/88836525/130970186-f766dea6-ac6b-4cff-9a54-9a7e74932aa2.png)
 COMPILAR Y EJECUTAR
 Para compilar ejecute el comando:
 
