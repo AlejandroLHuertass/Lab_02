@@ -1,4 +1,4 @@
-package main.java.edu.eci.cvds.patterns.shapes;
+package edu.eci.cvds.patterns.shapes;
 
 public class ShapeMain {
     public static void main(String[] args) {
