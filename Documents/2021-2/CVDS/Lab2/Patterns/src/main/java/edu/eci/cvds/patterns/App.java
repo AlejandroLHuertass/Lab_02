@@ -8,6 +8,17 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+    	String name="";
+
+		for(int i = 0; i < args.length; i++){
+			name+=args[i]+" ";
+ 		}
+		if( "".contentEquals(name) ) {
+			System.out.println(   "Hello world!" );
+			
+		}
+		else {
+			System.out.println(   "Hello "+name+"!" );
+		}
     }
 }
